@@ -90,7 +90,7 @@ document.querySelector(".btn-hold").addEventListener("click", function(){
  document.getElementById("score-"+ activePlayer).textContent=scores[activePlayer];
 
 // toglogch hojson esehiig shalgah
- if(scores[activePlayer]>=10){
+ if(scores[activePlayer]>=100){
     isGameOver=true;
 
     document.getElementById("name-"+activePlayer).textContent="WINNER !!!";
